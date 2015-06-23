@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [SanityWap]" parallel="tests" allow-return-values="true">
+  <test name="intertialScreen(failed)" parallel="tests">
+    <classes>
+      <class name="com.mb.wapsanity.testscripts.LaunchWap">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mb.wapsanity.testscripts.LaunchWap -->
+      <class name="com.mb.wapsanity.testscripts.LoginAndRegistrationTest">
+        <methods>
+          <include name="before"/>
+          <include name="loginCase"/>
+          <include name="logout"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mb.wapsanity.testscripts.LoginAndRegistrationTest -->
+    </classes>
+  </test> <!-- intertialScreen(failed) -->
+</suite> <!-- Failed suite [SanityWap] -->
